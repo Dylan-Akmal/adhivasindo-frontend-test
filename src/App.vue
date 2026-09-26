@@ -32,7 +32,7 @@
         <div class="board-columns">
           <BoardColumn
             v-for="col in filteredColumns"
-            :key="col.id"
+            :key="col.column.id"
             :column="col.column"
             :tasks="col.tasks"
             :dragging-id="draggingId"
